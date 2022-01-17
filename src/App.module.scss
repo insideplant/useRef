@@ -1,0 +1,48 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+
+  .content {
+    width: 20vw;
+
+    .itemList {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: large;
+      width: 100%;
+
+      .ul {
+        width: 100%;
+        word-break: break-all;
+        .li {
+          font-size: 20px;
+          font-weight: bold;
+          width: 100%;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 32px;
+
+      .textarea {
+        width: 100%;
+        box-sizing: border-box;
+        resize: none;
+      }
+
+      .button {
+        margin-top: 16px;
+        width: 25%;
+      }
+    }
+  }
+}
